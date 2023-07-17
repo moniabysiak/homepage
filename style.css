@@ -1,17 +1,31 @@
-h1 {
-	color: rgb(216, 78, 142);
-}
-
-h2 {
+.header2 {
 	color: #1460AA;
 	background: #e9f085;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
-	color: darkblue;
+	color: rgb(228, 28, 28);
 }
 
 body {
 	background: #c2eba0;
+}
+
+.pink-header {
+	color: rgb(240, 21, 174);
+	background-color: rgb(243, 191, 234);
+}
+
+.take-it {
+	color: inherit;
+}
+
+.crazy {
+	color:rgb(241, 117, 16);
+}
+
+.white-blue {
+	color: white;
+	background-color: darkblue;
 }
