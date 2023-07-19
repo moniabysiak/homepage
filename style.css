@@ -29,3 +29,19 @@ body {
 	color: white;
 	background-color: darkblue;
 }
+
+section {
+	padding: 16px;
+}
+
+h1 {
+	padding: 16px;
+}
+
+footer {
+	padding: 16px;
+}
+
+nav {
+	padding: 16px;
+}
