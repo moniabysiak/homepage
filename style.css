@@ -32,8 +32,26 @@ html {
 	color: rgb(46, 98, 241);
 	padding: 5px;
 	text-align: center;
+
 }
 
+.article__header--special {
+	background-color: rgb(235, 17, 144);
+	color: rgb(236, 195, 233);
+	text-align: center;
+}
+
+.navigation {
+	background-color: rgb(131, 196, 131);
+	padding: 12px; 
+	margin-top: 8px;
+}
+
+.navigation__link {
+	color: darkgreen;
+	padding-left: 10px;
+
+}
 body {
 	background: #c2eba0;
 }
