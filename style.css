@@ -1,16 +1,17 @@
-
 html {
 	box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
 	box-sizing: inherit;
 }
 
 .section {
 	background-color: rgb(243, 243, 164);
 	padding: 10px;
-	margin: 5px;
+	margin: 10px;
 }
 
 .section__header {
@@ -25,6 +26,7 @@ html {
 	background-color: bisque;
 	border-radius: 5%;
 	padding: 10px;
+	margin: 8px;
 }
 
 .article__header {
@@ -43,7 +45,7 @@ html {
 
 .navigation {
 	background-color: rgb(131, 196, 131);
-	padding: 12px; 
+	padding: 12px;
 	margin-top: 8px;
 }
 
@@ -52,13 +54,30 @@ html {
 	padding-left: 10px;
 
 }
+
+.div {
+	box-sizing: border-box;
+	border: 3px dashed hotpink;
+	overflow: hidden;
+	width: 300px auto;
+	height: auto;
+	background-color: rgb(243, 191, 234);
+	margin: 10px;
+}
+
+.div-2 {
+	border: 3px dotted rgb(235, 109, 37);
+	background-color: rgb(243, 243, 164);
+	margin: 10px;
+}
+
 body {
 	background: #c2eba0;
 }
 
 .pink-header {
 	color: rgb(240, 21, 174);
-	background-color: rgb(243, 191, 234);
+	text-align: center;
 }
 
 .take-it {
@@ -66,7 +85,7 @@ body {
 }
 
 .crazy {
-	color:rgb(241, 117, 16);
+	color: rgb(241, 117, 16);
 }
 
 section {
@@ -79,4 +98,9 @@ h1 {
 
 footer {
 	padding: 16px;
+}
+
+.photo {
+	max-width: 600px;
+	width:100%;
 }
