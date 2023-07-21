@@ -59,8 +59,7 @@ html {
 	box-sizing: border-box;
 	border: 3px dashed hotpink;
 	overflow: hidden;
-	width: 300px auto;
-	height: auto;
+	padding: 15px;
 	background-color: rgb(243, 191, 234);
 	margin: 10px;
 }
