@@ -24,7 +24,7 @@ html {
 
 .article {
 	background-color: bisque;
-	border-radius: 5%;
+	border-radius: 15px;
 	padding: 10px;
 	margin: 8px;
 }
@@ -46,12 +46,13 @@ html {
 .navigation {
 	background-color: rgb(131, 196, 131);
 	padding: 12px;
-	margin-top: 8px;
+	margin-top: 10px;
 }
 
 .navigation__link {
 	color: darkgreen;
 	padding-left: 10px;
+	margin: 10px;
 
 }
 
@@ -61,13 +62,18 @@ html {
 	overflow: hidden;
 	padding: 15px;
 	background-color: rgb(243, 191, 234);
-	margin: 10px;
+	margin: 10px auto;
+	max-width: 1000px;
+	width: 100%;
+
 }
 
 .div-2 {
 	border: 3px dotted rgb(235, 109, 37);
 	background-color: rgb(243, 243, 164);
-	margin: 10px;
+	margin: 10px auto;
+	max-width: 1000px;
+	width: 100%;
 }
 
 body {
