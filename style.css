@@ -8,6 +8,11 @@ html {
 	box-sizing: inherit;
 }
 
+.header {
+position: sticky;
+top: 0;
+}
+
 .section {
 	background-color: rgb(243, 243, 164);
 	padding: 10px;
@@ -93,16 +98,12 @@ body {
 	color: rgb(241, 117, 16);
 }
 
-section {
-	padding: 16px;
-}
 
-h1 {
+.footer {
 	padding: 16px;
-}
-
-footer {
-	padding: 16px;
+	color:rgb(135, 136, 139);
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 .photo {
