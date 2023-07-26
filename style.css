@@ -1,6 +1,6 @@
 html {
 	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif; 
+	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.5;
 }
 
@@ -11,8 +11,8 @@ html {
 }
 
 .header {
-position: sticky;
-top: 0;
+	position: sticky;
+	top: 0;
 }
 
 .section {
@@ -53,15 +53,18 @@ top: 0;
 
 .navigation {
 	background-color: rgb(131, 196, 131);
-	padding: 12px;
-	margin-top: 10px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0;
+	gap: 25px;
+	align-items: center;
+	flex-wrap: nowrap;
 }
 
 .navigation__link {
 	color: darkgreen;
-	padding-left: 10px;
-	margin: 10px;
-
 }
 
 .div {
@@ -104,14 +107,14 @@ body {
 
 .footer {
 	padding: 16px;
-	color:rgb(135, 136, 139);
+	color: rgb(135, 136, 139);
 	max-width: 1000px;
 	margin: 0 auto;
 }
 
 .photo {
 	max-width: 600px;
-	width:100%;
+	width: 100%;
 }
 
 .special {
