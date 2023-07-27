@@ -72,7 +72,8 @@ html {
 	border: 3px dashed hotpink;
 	overflow: hidden;
 	padding: 15px;
-	background-color: rgb(243, 191, 234);
+	background-color: #f3f192;
+	background-image: linear-gradient(45deg, #f3f192 19%, #f385ff 95%);
 	margin: 10px auto;
 	max-width: 1000px;
 	width: 100%;
@@ -88,7 +89,10 @@ html {
 }
 
 body {
-	background: #c2eba0;
+	background-color: #77fb13;
+	background-image: linear-gradient(90deg, #77fb13 0%, #eb75d5 44%, #FFCC70 100%);
+
+
 }
 
 .pink-header {
