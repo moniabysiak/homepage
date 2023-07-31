@@ -55,12 +55,9 @@ html {
 	background-color: rgb(131, 196, 131);
 	height: 50px;
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
-	margin: 0;
-	gap: 25px;
+	gap: 24px;
 	align-items: center;
-	flex-wrap: nowrap;
 }
 
 .navigation__link {
