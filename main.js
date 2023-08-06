@@ -18,9 +18,3 @@ person('Hubert', 33, 'Kielce', 'karate')
 person('Liliana', 4,'Kielce','Ju-jitsu')
 person('Aniela', 2, 'Kielce', 'plac zabaw')
 
-const hamburger = document.querySelector('.hamburger--js');
-
-hamburger.addEventListener('click', () => {
-    const navigation = document.querySelector('.navigation--js');
-    navigation.classList.toggle('navigation--open')
-})
