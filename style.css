@@ -71,7 +71,7 @@ html {
 
 .navigation {
 	background-color: rgb(131, 196, 131);
-	display: flex;
+	display: none;
 	flex-direction: column;
 	justify-content: center;
 	gap: 24px;
@@ -79,6 +79,10 @@ html {
 	position: absolute;
 	top: 50px;
 	width: 100%;
+}
+
+.navigation--open {
+	display: flex;
 }
 
 .navigation__link {
