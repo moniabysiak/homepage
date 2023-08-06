@@ -19,6 +19,10 @@ html {
 .header {
 	position: sticky;
 	top: 0;
+	min-height: 50px;
+	background-color: rgb(131, 196, 131);
+	display: flex;
+	justify-content: flex-end;
 }
 
 .section {
@@ -58,13 +62,23 @@ html {
 	padding: 10px;
 }
 
+.hamburger {
+	padding: 4px;
+	background: none;
+	border: 0;
+	font-size: 1.5rem;
+}
+
 .navigation {
 	background-color: rgb(131, 196, 131);
-	height: 50px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	gap: 24px;
 	align-items: center;
+	position: absolute;
+	top: 50px;
+	width: 100%;
 }
 
 .navigation__link {
@@ -148,6 +162,24 @@ body {
 		grid-template-columns: 1fr 1fr;
 	}
 
+	.hamburger {
+		display: none;
+	}
+
+	.navigation {
+		background-color: rgb(131, 196, 131);
+		height: 50px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 24px;
+		align-items: center;
+		position: static;
+	}
+
+	.navigation__link {
+		color: darkgreen;
+	}
 }
 
 @media screen and (min-width: 1280px) {
