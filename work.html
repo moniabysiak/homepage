@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekt do kursu WTF</title>
-    <link href="/normalize.css" rel="stylesheet" type="text/css">
-    <link href="/style.css" rel="stylesheet" type="text/css">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="navigation">
+        <button class="hamburger hamburger--js" aria-label="Menu">🍔</button>
+        <nav class="navigation navigation--js">
             <a class="navigation__link" href="index.html"> Strona główna</a>
             <a class="navigation__link" href="domicile.html"> Miejsce zamieszkania</a>
             <a class="navigation__link" href="work.html"> Praca</a>
@@ -38,7 +39,7 @@
                 </article>
                 <article class="article">
                     <h3 class="article__header"> Blue Dolphin</h3>
-                    <img class="photo" src="/bdt.png" alt="Logo firmy Blue Dolphin" />
+                    <img class="photo" src="bdt.png" alt="Logo firmy Blue Dolphin" />
                     <p>
                         Po aplikowaniu na stanowisko Pracownik biurowy do firmy XL-TAPE-INTERNATIONAL SP. Z O.O. zostałam zaproszona na rozmowę kwalifikacyjną. Po rozmowie z pracownikiem kadr, Dyrektorą Kadr, Prezesem i Dyrektorem ds. Handlu i Marketingu przyszłam na dzień próbny. Firma bardziej rozpoznawalna pod nazwą Blue Dolphim - te znane taśmy malarskie niebieskie. Dostałam pracę jako koordynatorka. Otrzymałam dwie grupy handlowców i realizowałam ich zamówienia. Praca nauczyła mnie ogromnej podzielności uwagi, szybkiego działania, pracy pod presją (nie tylko czasu). Po ponad roku przeszłam na inne stanowisko, które nazwano Specjalista ds. Marketingu. Zakres obowiązków był jednak dużo większy - byłam asystentką Dyrektora - takim łącznikiem między Kierownikami i Handlowcami a Nim. Pisałam maile, tworzyłam różnego rodzaju promocje, rozliczałam program lojalnościowy, tworzyłam skrypty na spotkania podsumowujące z Kierownikami i dużo dużo więcej. Po ponad dwóch latach na tym stanowisku zaszłam w ciążę i przeszłam na stanowisko MAMY. Póki co tak to trwa do tej pory.
                     </p>
@@ -53,7 +54,9 @@
         </div>
     </main>
     <footer class="footer">
-		<p>Informacje z życia Moniki Bysiak pisane na potrzeby kursu WTF. Co ten forntend. <a href="#top">Do góry </a> </p>
-	</footer>
+        <p>Informacje z życia Moniki Bysiak pisane na potrzeby kursu WTF. Co ten forntend. <a href="#top">Do góry </a> </p>
+    </footer>
+    <script defer src="hamburger.js"></script>
+</body>
 
 </html>

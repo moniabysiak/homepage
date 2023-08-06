@@ -5,13 +5,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Projekt do kursu WTF</title>
-	<link href="/normalize.css" rel="stylesheet" type="text/css">
-	<link href="/style.css" rel="stylesheet" type="text/css">
+	<link href="normalize.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header class="header">
-		<nav class="navigation">
+		<button class="hamburger hamburger--js" aria-label="Menu">🍔</button>
+		<nav class="navigation navigation--js">
 			<a class="navigation__link" href="index.html"> Strona główna</a>
 			<a class="navigation__link" href="domicile.html"> Miejsce zamieszkania</a>
 			<a class="navigation__link" href="work.html"> Praca</a>
@@ -34,7 +35,7 @@
 					<p>
 						Od urodzenia mieszkałam w Kielcach na osiedlu świętokrzyskim. <br> Mając 21 lat wyprowadziłam się od rodziców do mieszkania, które dostałam po Babci Marysi i mieszkałam przez 10 lat na osiedlu KSM w Kielcach. <br> Po pojawieniu się Lilianki na świecie postanowiliśmy zmienić mieszkanie na większe i tak w 2020 roku przeprowadziliśmy się na osiedle Barwinek.
 					</p>
-					<img class="photo" src="/barwinek.png" alt="Zdjęcie osiedla Barwinek" />
+					<img class="photo" src="barwinek.png" alt="Zdjęcie osiedla Barwinek" />
 				</article>
 			</section>
 		</div>
@@ -42,6 +43,7 @@
 	<footer class="footer">
 		<p>Informacje z życia Moniki Bysiak pisane na potrzeby kursu WTF. Co ten forntend. <a href="#top">Do góry </a> </p>
 	</footer>
+	<script defer src="hamburger.js"></script>
 </body>
 
 </html>
