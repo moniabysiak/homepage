@@ -53,7 +53,7 @@ html {
 	color: rgb(46, 98, 241);
 	padding: 5px;
 	text-align: center;
-
+	scroll-margin-top: 3em;
 }
 
 .article__header--special {
@@ -61,6 +61,7 @@ html {
 	color: rgb(236, 195, 233);
 	text-align: center;
 	padding: 10px;
+	scroll-margin-top: 3em;
 }
 
 .hamburger {
