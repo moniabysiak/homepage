@@ -1,1 +1,3 @@
-console.log('Siema')
+const zmienna = 'hello';
+
+console.log(`${zmienna} Monia!`);
