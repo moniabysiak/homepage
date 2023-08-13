@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cow": "cowsay siemanko",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "cowt": "cowsay -t I am tired"
   },
   "author": "",
   "license": "ISC",

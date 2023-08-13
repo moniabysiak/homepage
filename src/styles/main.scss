@@ -129,6 +129,10 @@ body {
 	color: inherit;
 }
 
+.take-it:hover {
+	color: hotpink;
+}
+
 .crazy {
 	color: rgb(241, 117, 16);
 }
@@ -158,6 +162,11 @@ body {
 
 	.section__header {
 		font-size: 2rem;
+	}
+
+	.section__header::after {
+		content: " 😊";
+		font-size: 1.5rem;
 	}
 
 	.navigation {
