@@ -52,16 +52,17 @@ html {
 		padding: 5px;
 		text-align: center;
 		scroll-margin-top: 3em;
+	}
 
-		&__header--special {
-			background-color: rgb(235, 17, 144);
-			color: rgb(236, 195, 233);
-			text-align: center;
-			padding: 10px;
-			scroll-margin-top: 3em;
-		}
+	&__header--special {
+		background-color: rgb(235, 17, 144);
+		color: rgb(236, 195, 233);
+		text-align: center;
+		padding: 10px;
+		scroll-margin-top: 3em;
 	}
 }
+
 
 .hamburger {
 	padding: 4px;
@@ -84,11 +85,13 @@ html {
 	&__link {
 		color: darkgreen;
 	}
+
+	&--open {
+		display: flex;
+	}
 }
 
-.navigation--open {
-	display: flex;
-}
+
 
 
 
