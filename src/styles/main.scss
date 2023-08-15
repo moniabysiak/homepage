@@ -1,3 +1,6 @@
+$desktop: 1280px;
+$tablet: 768px;
+
 html {
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
@@ -8,12 +11,6 @@ html {
 *:before,
 *:after {
 	box-sizing: inherit;
-}
-
-.article__grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 12px;
 }
 
 .header {
@@ -37,6 +34,19 @@ html {
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		padding: 16px;
 		text-align: center;
+
+		&::before {
+			content: "💖 ";
+			font-size: 1.3rem;
+		}
+
+		@media screen and (min-width: $tablet) {
+			font-size: 2rem;
+		}
+
+		@media screen and (min-width: $desktop) {
+			font-size: 2.2rem;
+		}
 	}
 }
 
@@ -52,23 +62,40 @@ html {
 		padding: 5px;
 		text-align: center;
 		scroll-margin-top: 3em;
+
+		&--special {
+			background-color: rgb(235, 17, 144);
+			color: rgb(236, 195, 233);
+			text-align: center;
+			padding: 10px;
+			scroll-margin-top: 3em;
+		}
 	}
 
-	&__header--special {
-		background-color: rgb(235, 17, 144);
-		color: rgb(236, 195, 233);
-		text-align: center;
-		padding: 10px;
-		scroll-margin-top: 3em;
+	&__grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 12px;
+
+		@media screen and (min-width: $tablet) {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		@media screen and (min-width: $desktop) {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
 	}
 }
-
 
 .hamburger {
 	padding: 4px;
 	background: none;
 	border: 0;
 	font-size: 1.5rem;
+
+	@media screen and (min-width: $tablet) {
+		display: none;
+	}
 }
 
 .navigation {
@@ -82,18 +109,26 @@ html {
 	top: 50px;
 	width: 100%;
 
-	&__link {
-		color: darkgreen;
+	@media screen and (min-width: $tablet) {
+		height: 50px;
+		display: flex;
+		flex-direction: row;
+		position: static;
+		font-size: 1.1rem;
+	}
+
+	@media screen and (min-width: $desktop) {
+		font-size: 1.2rem;
 	}
 
 	&--open {
 		display: flex;
 	}
+
+	&__link {
+		color: darkgreen;
+	}
 }
-
-
-
-
 
 .div {
 	box-sizing: border-box;
@@ -105,7 +140,6 @@ html {
 	margin: 10px auto;
 	max-width: 768px;
 	width: 100%;
-
 }
 
 .div-2 {
@@ -125,14 +159,22 @@ body {
 	color: rgb(240, 21, 174);
 	text-align: center;
 	font-size: 1.5rem;
+
+	@media screen and (min-width: $tablet) {
+		font-size: 2rem;
+	}
+
+	@media screen and (min-width: $desktop) {
+		font-size: 2.5rem;
+	}
 }
 
 .take-it {
 	color: inherit;
-}
 
-.take-it:hover {
-	color: hotpink;
+	&:hover {
+		color: hotpink;
+	}
 }
 
 .crazy {
@@ -155,64 +197,4 @@ body {
 .special {
 	color: rgb(66, 148, 11);
 	letter-spacing: 2px;
-}
-
-@media screen and (min-width: 768px) {
-	.pink-header {
-		font-size: 2rem;
-	}
-
-	.section__header {
-		font-size: 2rem;
-	}
-
-	.section__header::after {
-		content: " 😊";
-		font-size: 1.5rem;
-	}
-
-	.navigation {
-		font-size: 1.1rem;
-	}
-
-	.article__grid {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.hamburger {
-		display: none;
-	}
-
-	.navigation {
-		background-color: rgb(131, 196, 131);
-		height: 50px;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		gap: 24px;
-		align-items: center;
-		position: static;
-
-		&__link {
-			color: darkgreen;
-		}
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	.pink-header {
-		font-size: 2.5rem;
-	}
-
-	.section__header {
-		font-size: 2.2rem;
-	}
-
-	.navigation {
-		font-size: 1.2rem;
-	}
-
-	.article__grid {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
 }
