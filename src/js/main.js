@@ -1,4 +1,5 @@
 import { paragraph } from "./paragraph";
+import differenceInDays from 'date-fns/differenceInDays'
 
 console.log('Hej! Fajnie, że tu zaglądasz.');
 const firstName = 'Monika';
@@ -18,3 +19,9 @@ person('Hubert', 33, 'Kielce', 'karate')
 person('Liliana', 4,'Kielce','Ju-jitsu')
 person('Aniela', 2, 'Kielce', 'plac zabaw')
 
+const resultDays = differenceInDays(
+    new Date(2023, 9, 10, 18, 0),
+    new Date()
+)
+
+console.log(resultDays)
