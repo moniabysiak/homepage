@@ -1,6 +1,9 @@
 import { paragraph } from "./paragraph";
 import differenceInDays from 'date-fns/differenceInDays'
 import differenceInWeeks from 'date-fns/differenceInWeeks'
+import { subtractNumbers } from "./number";
+
+console.log(subtractNumbers(14,4));
 
 console.log('Hej! Fajnie, że tu zaglądasz.');
 const firstName = 'Monika';
