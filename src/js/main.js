@@ -1,5 +1,6 @@
 import { paragraph } from "./paragraph";
 import differenceInDays from 'date-fns/differenceInDays'
+import differenceInWeeks from 'date-fns/differenceInWeeks'
 
 console.log('Hej! Fajnie, że tu zaglądasz.');
 const firstName = 'Monika';
@@ -24,4 +25,16 @@ const resultDays = differenceInDays(
     new Date()
 )
 
-console.log(resultDays)
+console.log(`Za ${resultDays} dni będą moje urodziny`)
+
+const resultLiveDays = differenceInDays(
+    new Date(),
+    new Date(1988, 10, 10)
+)
+
+const resultWeeks = differenceInWeeks(
+    new Date(),
+    new Date(1988, 10, 10)
+)
+
+console.log(`Jestem na tym świecie od ${resultWeeks} tygodni a ${resultLiveDays} dni`)
