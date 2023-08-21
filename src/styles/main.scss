@@ -5,9 +5,23 @@
 $desktop: 1280px;
 $tablet: 768px;
 
+:root {
+	--textColor: #2c2c2c;
+	--backgroundColor: bisque;
+	--spanColor: rgb(66, 148, 11);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--textColor: #eeeeee;
+		--backgroundColor: #3f3f3f;
+		--spanColor: #c4e2cb;
+	}
+}
+
 html {
 	box-sizing: border-box;
-	font-family:'Nunito', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	line-height: 1.5;
 }
 
@@ -27,7 +41,8 @@ html {
 }
 
 .article {
-	background-color: bisque;
+	background-color: var(--backgroundColor);
+	color: var(--textColor);
 	border-radius: 15px;
 	padding: 10px;
 	margin: 8px;
@@ -45,6 +60,16 @@ html {
 			text-align: center;
 			padding: 10px;
 			scroll-margin-top: 3em;
+
+			@media (prefers-color-scheme: dark) {
+				background-color: rgb(63, 82, 76);
+				color: rgb(217, 225, 248);
+			}
+		}
+
+		@media (prefers-color-scheme: dark) {
+			background-color: rgb(63, 82, 76);
+			color: rgb(217, 225, 248);
 		}
 	}
 
@@ -171,6 +196,6 @@ body {
 }
 
 .special {
-	color: rgb(66, 148, 11);
+	color: var(--spanColor);
 	letter-spacing: 2px;
 }
