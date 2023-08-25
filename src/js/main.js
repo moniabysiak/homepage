@@ -2,6 +2,7 @@ import { paragraph } from "./paragraph";
 import differenceInDays from 'date-fns/differenceInDays'
 import differenceInWeeks from 'date-fns/differenceInWeeks'
 import { subtractNumbers } from "./number";
+import { loops } from "./loops";
 
 console.log(subtractNumbers(14,4));
 
