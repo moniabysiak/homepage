@@ -7,6 +7,13 @@ Proejkt zawiera trzy podstrony:
    - Trochę o życiu, wykształceniu i zainteresowaniach
    - Moje ulubione dania
 2. Miejsce zamieszkania
-3. Praca
+   - Moje miasto Kielce
+4. Praca
    - praca dorywcza
    - praca stała
+## Wykorzystane technologie
+- html
+- scss
+     - flex
+     - grid
+- javascript
