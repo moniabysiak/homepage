@@ -7,7 +7,7 @@ Projekt zawiera trzy podstrony:
    - Trochę o życiu, wykształceniu i zainteresowaniach
    - Moje ulubione dania
 2. Miejsce zamieszkania
-   - Moje miasto Kielce
+   - Moje miasto **Kielce**
 4. Praca
    - praca dorywcza
    - praca stała
@@ -20,4 +20,4 @@ Projekt zawiera trzy podstrony:
 - npm
 - parcel
 - export/import
-### Dodatkowe informacje
+
