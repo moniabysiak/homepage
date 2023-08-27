@@ -1,13 +1,13 @@
-let sumArray = 0
+const arrayOne = [5, 10, 15, 20, 25, 30, 35];
+const arrayTwo = [5, 10, 15, 20, 25];
 
-const myArray = [4, 6, 7, 9, 12, 21];
-
-for (i = 0; i < myArray.length; i++) {
-        sumArray = sumArray + myArray[i]
+function myFunction(numbers) {
+    let sumArray = 0;
+    for (i = 0; i < numbers.length; i++) {
+        sumArray = sumArray + numbers[i]
+    }
+    return sumArray
 }
 
-
-console.log(sumArray)
-
-const arrayOne = [5, 10, 15, 20, 25, 30, 35];
-
+console.log("Wynik sumowania tablicy: " + myFunction(arrayOne))
+console.log("Wynik sumowania tablicy: " + myFunction(arrayTwo))
