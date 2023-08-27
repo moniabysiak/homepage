@@ -42,3 +42,5 @@ const resultWeeks = differenceInWeeks(
 )
 
 console.log(`Jestem na tym świecie od ${resultWeeks} tygodni a ${resultLiveDays} dni`)
+
+import { sumArray } from "./sumArray";
