@@ -1,7 +1,7 @@
 # Projekt homepage
 Strona to informacje z życia na mój temat.
 ## Podstrony
-Proejkt zawiera trzy podstrony:
+Projekt zawiera trzy podstrony:
 1. Strona główna
    - Kim jestem
    - Trochę o życiu, wykształceniu i zainteresowaniach
@@ -17,3 +17,7 @@ Proejkt zawiera trzy podstrony:
      - flex
      - grid
 - javascript
+- npm
+- parcel
+- export/import
+### Dodatkowe informacje
