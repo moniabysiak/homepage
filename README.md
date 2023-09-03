@@ -20,5 +20,5 @@ Projekt zawiera trzy podstrony:
 - npm
 - parcel
 - export/import
-https://moniabysiak.netlify.app/og.png
+[Kim jest Monika Bysiak] (https://moniabysiak.netlify.app/og.png)
 
