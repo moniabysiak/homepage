@@ -20,4 +20,5 @@ Projekt zawiera trzy podstrony:
 - npm
 - parcel
 - export/import
+https://moniabysiak.netlify.app/og.png
 
